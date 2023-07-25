@@ -7,5 +7,5 @@ version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/.github/actions/local-action" # look for package.json and lock files in the actions/local-action folder.
-    schedule:
+    schedule: 
       interval: "daily"
